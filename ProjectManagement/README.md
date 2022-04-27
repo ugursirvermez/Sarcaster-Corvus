@@ -2,6 +2,7 @@
 Oyun ve Uygulama Akademisi bünyesinde yapılan bootcamp sürecinde 20 no'lu takımın çalışma alanıdır.
 ## ---------------------------BİLGİLENDİRME-------------------------------------
 - Burada 3 temel öğe ile başlayacağız. 3 temel klasör bizim ana yapımız olacak ve her bir Sprint boyunca ilerleyecek.
+- Miro linkimiz: ![Miro bağlantısı için tıklayın] (https://miro.com/app/board/uXjVO5ivmM8=/?share_link_id=345877320579)
 - İkinci klasörümüzde Miro'da yaptığımız Scrum loglarımız bulunacak. Her 3 Sprint'teki iş çizelgesinin gidişatı bulunacak. Burada;
    + Takım üyelerinin bilgileri,
    + Takım üyelerinin yeterlilikleri ve proje kapsamında çalışma durumları,
