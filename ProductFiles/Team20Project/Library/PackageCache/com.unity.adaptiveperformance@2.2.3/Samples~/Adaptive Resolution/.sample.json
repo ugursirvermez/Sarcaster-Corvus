@@ -1,0 +1,8 @@
+{
+  "displayName": "Adaptive Resolution Sample",
+  "description": "Demonstrates how Adaptive Resolution works.",
+  "createSeparatePackage": true,
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "7.5.1"
+  }
+}

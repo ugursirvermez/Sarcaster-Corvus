@@ -1,0 +1,19 @@
+{
+    "name": "Unity.AdaptivePerformance.Samsung.Android.Editor",
+    "references": [
+        "GUID:f3ff70ad10f12408eb60d4fc86a5d4bb",
+        "GUID:7dbf32976982c98448af054f2512cb79",
+        "GUID:9604b18aafdbc9346bceb5e19ac9c746"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

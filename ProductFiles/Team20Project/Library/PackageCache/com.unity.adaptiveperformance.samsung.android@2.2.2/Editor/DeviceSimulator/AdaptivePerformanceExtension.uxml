@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Foldout text="VRR Settings" value="True" name="vrr-settings">
+        <Style src="AdaptivePerformanceExtension.uss" />
+        <ui:Toggle label="High-Speed VRR" name="highspeed-vrr" value="false" tooltip="Controls if High-Speed Variable Refresh Rate is simulated. If enabled the device supports higher display refreshrates than 60hz."/>
+        <ui:Toggle label="Automatic VRR" name="automatic-vrr" value="true" tooltip="Controls if Automatic Variable Refresh Rate mode is enabled. If enabled it adjusts the display refresh rate automatically based on the target framerate."/>
+    </ui:Foldout>
+    <ui:Foldout text="Android System" value="True" name="android-system">
+        <Style src="AdaptivePerformanceExtension.uss" />
+        <ui:Toggle label="VRR Supported" name="vrr-support" value="true" tooltip="Simulates if Variable Refresh Rate is supported by a simulated device."/>
+    </ui:Foldout>
+    <ui:Foldout text="VRR" value="True" name="vrr">
+        <Style src="AdaptivePerformanceExtension.uss" />
+    </ui:Foldout>
+</ui:UXML>
