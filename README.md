@@ -1,14 +1,14 @@
 # Takım İsmi
-Team20
+Atomic Sneeze
 # Ürün İle İlgili Bilgiler
 ## Takım Elemanları
-+ Abdullah Harun Taşdelen: Role
-+ Ece Ezer: Role
-+ Gökçe Kara: Role
-+ Okan Aburşu: Role
-+ Uğur Sırvermez: Role
++ Abdullah Harun Taşdelen: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
++ Ece Ezer: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
++ Gökçe Kara: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
++ Okan Aburşu: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
++ Uğur Sırvermez: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
 # Ürün İsmi
-Belli Değil
+Sarcaster Corvus
 # Ürün Açıklaması
 Yıkımın egemen olduğu bir Metaverse'ün içerisinde bir maceraya hazır mısın? Post Apokaliptik bir dünyanın içinde gerçek çevrenizle ilişkili bu paralel evreni keşfedin. Küresel iklim krizinin baş gösterdiği ve bir zamanlar ülkelerin ve acımasız şirketlerin güç savaşı verirken yok ettiği bu dünyada kimlerin olduğunu öğrenin. Paralel evrende yolunuzun üstünde bulunan insanlarla tanışın ve onlar hakkında kararlar verin. Bu yolda düşmanlar edinmişseniz onlarla sıra tabanlı dövüşmeye hazırlıklı olun. Unutmayın, ne pahasına olursa olsun hayatta kalmalısınız!
 # Ürün Özellikleri
