@@ -32,7 +32,7 @@ Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmak
  ![persona,User Stories](https://user-images.githubusercontent.com/6298796/167255092-7669d4e2-048f-44e1-87dc-33d2c2f9e14a.png)
  ![ScrumPlan](https://user-images.githubusercontent.com/6298796/167255098-2de38a1b-6ef2-46c7-81fc-60f568a6622f.png)
   + Sprint 1'in yarısından sonra yani ikinci haftasından itibaren ürünümüzün en önemli özelliğin hazırladık. Yani Location Based tabanlı bölümünün tasarımına başladık. Bayramın birinci ve ikinci günü verimli bir çalışma sağlayamadık ancak haftanın sonlarına doğru 140 puanlık bir sprint listesi hazırladık. İkinci aşamanın görev listesi aşağıdaki gibidir:
-![sprint1 2 hafta](https://user-images.githubusercontent.com/6298796/167255161-60b37d2f-51fd-4725-8eb3-c53e0c94d512.png)
+![sprint1 2 hafta](https://user-images.githubusercontent.com/6298796/167255602-b81b8948-5043-4ced-8c87-1ae272e24c78.png)
   + Sprint 1'in sonunu toplam 140 puanla tamamladık. Bununla ilgili çıktı aşağıdaki gibidir:
 ![sprint1 end](https://user-images.githubusercontent.com/6298796/167255187-38c35f07-05e0-4727-9d2b-c062dbd3302c.png)
   + Her sprint'in sonunda ürünümüze ait birer versiyon üretmeyi hedefledik ve ilk sprintimiz sonucunda Alpha Versiyonu 1.0 olarak bir apk ürettik. Elbette bug'ları var ancak temel bir özelliği tamamlayabildik. Ürünümüzün ilk versiyonuna ait ekran görüntüleri aşağıda bulunmakla birlikte, apk dosyamıza; ProductFiles -> Team20Proejct -> Build -> Team20Project.apk üzerinden ulaşabilirsiniz.
