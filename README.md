@@ -2,11 +2,11 @@
 Team20
 # Ürün İle İlgili Bilgiler
 ## Takım Elemanları
-Abdullah Harun Taşdelen: Role
-Ece Ezer: Role
-Gökçe Kara: Role
-Okan Aburşu: Role
-Uğur Sırvermez: Role
++ Abdullah Harun Taşdelen: Role
++ Ece Ezer: Role
++ Gökçe Kara: Role
++ Okan Aburşu: Role
++ Uğur Sırvermez: Role
 # Ürün İsmi
 Belli Değil
 # Ürün Açıklaması
@@ -26,7 +26,7 @@ Yıkımın egemen olduğu bir Metaverse'ün içerisinde bir maceraya hazır mıs
 Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmaktadır. Burada projemiz hakkında yaptığımız bütün içeriklere ulaşabilirsiniz.[Miro linkimiz için tıklayınız](https://miro.com/app/board/uXjVO5ivmM8=/?share_link_id=838499508459)
 # Sprint1
   + Sprint 1'in ilk 5 günü içerisinde yoğun bir araştırma sürecinden geçtik. Birkaç gün boyunca proje fikirleri ve özelliklerini tartıştık. Denemek istediğimiz çalışır hale getirmek istediğimiz özelliklerin imkanlar dahilimizde ne kadar gerçekleşebileceğini araştırdık. Sprint 1'in ilk haftası bizim için Sprint'in ilk haftası olarak geçmektedir. Buna yönelik ilk Scrum listemiz aşağıdaki gibidir.
-  + ![sprint1 meet](https://user-images.githubusercontent.com/6298796/167255447-091cea25-b875-4174-9a34-41574333dcd2.png)
+  ![sprint1 meet](https://user-images.githubusercontent.com/6298796/167255447-091cea25-b875-4174-9a34-41574333dcd2.png)
   ![sprint1 start](https://user-images.githubusercontent.com/6298796/167255007-a7930291-4fca-40aa-a8bf-5421c61d6ebe.png)
   + Sprint 1 için hazırlıklarımızı yaptığımızda yani ilk haftanın sonunda 2 ve 3.Sprint özelinde ürün özelliklerini geliştirmek adına bir yol haritası çıkardık. Bu yol haritası oluşturduğumuz personamızın kullanıcı hikayesine uygun bir şekilde hazırlandı. Persona ve Sprint iş listesi aşağıdaki gibidir:
  ![persona,User Stories](https://user-images.githubusercontent.com/6298796/167255092-7669d4e2-048f-44e1-87dc-33d2c2f9e14a.png)
