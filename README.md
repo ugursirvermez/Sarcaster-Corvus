@@ -7,7 +7,7 @@ Atomic Sneeze
 + Gökçe Kara: Product Owner, SCRUM Master, Developer 
 + Okan Aburşu: Product Owner, SCRUM Master, Developer 
 + Uğur Sırvermez: Product Owner, SCRUM Master, Developer
-Bütün süreci beraber yürütüyoruz, tek bir sorumlumuz yok ancak Miro ve Notion düzenlemelerini Uğur Sırvermez yaptı. Oradaki süreçle ilgili sorumlu olarak gösterilebilir ancak bütün süreçleri öğrenmek ve kendimizi geliştirmek adına beraber yürütüyoruz.
++ Not:Bütün süreci beraber yürütüyoruz, tek bir sorumlumuz yok ancak Miro ve Notion düzenlemelerini Uğur Sırvermez yaptı. Oradaki süreçle ilgili sorumlu olarak gösterilebilir ancak bütün süreçleri öğrenmek ve kendimizi geliştirmek adına beraber yürütüyoruz.
 # Ürün İsmi
 Sarcaster Corvus
 # Ürün Açıklaması
