@@ -7,7 +7,7 @@ Atomic Sneeze
 + Gökçe Kara: Product Owner, SCRUM Master, Developer 
 + Okan Aburşu: Product Owner, SCRUM Master, Developer 
 + Uğur Sırvermez: Product Owner, SCRUM Master, Developer
-+ Not:Bütün süreci beraber yürütüyoruz, tek bir sorumlumuz yok ancak Miro ve Notion düzenlemelerini Uğur Sırvermez yaptı. Oradaki süreçle ilgili sorumlu olarak gösterilebilir ancak bütün süreçleri öğrenmek ve kendimizi geliştirmek adına beraber yürütüyoruz.
++ Not: Bütün süreci beraber yürütüyoruz, tek bir sorumlumuz yok ancak Miro ve Notion düzenlemelerini Uğur Sırvermez yaptı. Oradaki süreçle ilgili sorumlu olarak gösterilebilir ancak bütün süreçleri öğrenmek ve kendimizi geliştirmek adına beraber yürütüyoruz.
 # Ürün İsmi
 Sarcaster Corvus
 # Ürün Açıklaması
@@ -44,7 +44,7 @@ Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmak
 ![3](https://user-images.githubusercontent.com/6298796/167255361-5f3204ba-08c4-432c-823c-db0ca887bd7c.jpg)
 ![4](https://user-images.githubusercontent.com/6298796/167255360-911a9f3c-ae96-4e15-81c4-e8c121735d07.jpg)
   + DailyScrum Notlarımız yine aynı Miro linkimizin içinde bulunmaktadır. Ancak oradan ulaşmanızı kolaylaştırmak adına bulunduğu konumun ekran görüntüsü aşağıdaki gibidir: 
- ![Team20_Project - Sprint1 DailyScrum Notları](https://user-images.githubusercontent.com/6298796/167298767-d7f3eb10-0036-41ec-a55d-bdfa26acb0eb.jpg)
+![Team20_Project - Sprint1 DailyScrum Notları](https://user-images.githubusercontent.com/6298796/167300898-d2658258-858d-45b2-b5e1-1137bce81ea1.jpg)
   + Sprint Review olarak Notion linkimiz var. Burada sprint'in genel kararlarının alındığı bütün içerikler bulunmaktadır. [Sprint Review Notion Notumuz İçin Tıklayın.](https://berserkjournal.notion.site/Sprint1-07-05-2022-Toplant-s-Sprint-Review-91834a32e2054c14834cd21ede08c92a)
   + Sprint 1 Retrospektif toplantısında sürecimizi değerlendirdiğimiz beyin fırtınası tablosu aşağıdaki gibidir:
   ![sprint 1 retro](https://user-images.githubusercontent.com/6298796/167296737-32593e87-c2f0-41df-b47f-acabeac2dab2.png)
