@@ -2,11 +2,12 @@
 Atomic Sneeze
 # Ürün İle İlgili Bilgiler
 ## Takım Elemanları
-+ Abdullah Harun Taşdelen: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
-+ Ece Ezer: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
-+ Gökçe Kara: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
-+ Okan Aburşu: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
-+ Uğur Sırvermez: Product Owner, SCRUM Master, Developer (Hepimiz birimiz için)
++ Abdullah Harun Taşdelen: Product Owner, SCRUM Master, Developer
++ Ece Ezer: Product Owner, SCRUM Master, Developer
++ Gökçe Kara: Product Owner, SCRUM Master, Developer 
++ Okan Aburşu: Product Owner, SCRUM Master, Developer 
++ Uğur Sırvermez: Product Owner, SCRUM Master, Developer
+Bütün süreci beraber yürütüyoruz, tek bir sorumlumuz yok ancak Miro ve Notion düzenlemelerini Uğur Sırvermez yaptı. Oradaki süreçle ilgili sorumlu olarak gösterilebilir ancak bütün süreçleri öğrenmek ve kendimizi geliştirmek adına beraber yürütüyoruz.
 # Ürün İsmi
 Sarcaster Corvus
 # Ürün Açıklaması
@@ -23,13 +24,15 @@ Yıkımın egemen olduğu bir Metaverse'ün içerisinde bir maceraya hazır mıs
   + Post-Apokaliptik oyunlardan keyif alan oyuncular
   + +15 yaşından büyük bütün dijital kullanıcıları kapsamaktadır.
 # Product Backlog URL
-Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmaktadır. Burada projemiz hakkında yaptığımız bütün içeriklere ulaşabilirsiniz.[Miro linkimiz için tıklayınız](https://miro.com/app/board/uXjVO5ivmM8=/?share_link_id=838499508459)
+Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmaktadır. Burada projemiz hakkında yaptığımız bütün içeriklere ulaşabilirsiniz.[Miro linkimiz için tıklayınız](https://miro.com/app/board/uXjVO5ivmM8=/?share_link_id=838499508459) . Ayrıca bütün toplantı notlarımızın ve çalışma prensiplerimizi belirlediğimiz Notion çalışma alanımız bulunmaktadır. [Notion linkimiz için tıklayınız](https://berserkjournal.notion.site/aa64bdd794ca4818961a9a8250ac7c2d?v=7c645db9173340218ecb7adf7ea87ba3)
 # Sprint1
   + Sprint 1'in ilk 5 günü içerisinde yoğun bir araştırma sürecinden geçtik. Birkaç gün boyunca proje fikirleri ve özelliklerini tartıştık. Denemek istediğimiz çalışır hale getirmek istediğimiz özelliklerin imkanlar dahilimizde ne kadar gerçekleşebileceğini araştırdık. Sprint 1'in ilk haftası bizim için Sprint'in ilk haftası olarak geçmektedir. Buna yönelik ilk Scrum listemiz aşağıdaki gibidir.
   ![sprint1 meet](https://user-images.githubusercontent.com/6298796/167255447-091cea25-b875-4174-9a34-41574333dcd2.png)
   ![sprint1 start](https://user-images.githubusercontent.com/6298796/167255007-a7930291-4fca-40aa-a8bf-5421c61d6ebe.png)
   + Sprint 1 için hazırlıklarımızı yaptığımızda yani ilk haftanın sonunda 2 ve 3.Sprint özelinde ürün özelliklerini geliştirmek adına bir yol haritası çıkardık. Bu yol haritası oluşturduğumuz personamızın kullanıcı hikayesine uygun bir şekilde hazırlandı. Persona ve Sprint iş listesi aşağıdaki gibidir:
  ![persona,User Stories](https://user-images.githubusercontent.com/6298796/167255092-7669d4e2-048f-44e1-87dc-33d2c2f9e14a.png)
+ ![persona2](https://user-images.githubusercontent.com/6298796/167295692-84c2fcb0-6727-4f17-a015-22e0f8d79ec6.png)
+![persona3](https://user-images.githubusercontent.com/6298796/167295694-12341436-8456-4371-b37e-8e7e83aee6dd.png)
  ![ScrumPlan](https://user-images.githubusercontent.com/6298796/167255098-2de38a1b-6ef2-46c7-81fc-60f568a6622f.png)
   + Sprint 1'in yarısından sonra yani ikinci haftasından itibaren ürünümüzün en önemli özelliğin hazırladık. Yani Location Based tabanlı bölümünün tasarımına başladık. Bayramın birinci ve ikinci günü verimli bir çalışma sağlayamadık ancak haftanın sonlarına doğru 140 puanlık bir sprint listesi hazırladık. İkinci aşamanın görev listesi aşağıdaki gibidir:
 ![sprint1 2 hafta](https://user-images.githubusercontent.com/6298796/167255602-b81b8948-5043-4ced-8c87-1ae272e24c78.png)
@@ -41,3 +44,7 @@ Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmak
 ![3](https://user-images.githubusercontent.com/6298796/167255361-5f3204ba-08c4-432c-823c-db0ca887bd7c.jpg)
 ![4](https://user-images.githubusercontent.com/6298796/167255360-911a9f3c-ae96-4e15-81c4-e8c121735d07.jpg)
   + DailyScrum Notlarımız yine aynı Miro linkimizin içinde bulunmaktadır. Ancak oradan ulaşmanızı kolaylaştırmak adına bulunduğu konumun ekran görüntüsü aşağıdaki gibidir: 
+ 
+  + Sprint Review olarak Notion linkimiz var. Burada sprint'in genel kararlarının alındığı bütün içerikler bulunmaktadır. [Sprint Review Notion Notumuz İçin Tıklayın.](https://berserkjournal.notion.site/Sprint1-07-05-2022-Toplant-s-Sprint-Review-91834a32e2054c14834cd21ede08c92a)
+  + Sprint 1 Retrospektif toplantısında sürecimizi değerlendirdiğimiz beyin fırtınası tablosu aşağıdaki gibidir:
+  ![sprint 1 retro](https://user-images.githubusercontent.com/6298796/167296737-32593e87-c2f0-41df-b47f-acabeac2dab2.png)
