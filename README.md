@@ -26,18 +26,18 @@ Yıkımın egemen olduğu bir Metaverse'ün içerisinde bir maceraya hazır mıs
 # Product Backlog URL
 Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmaktadır. Burada projemiz hakkında yaptığımız bütün içeriklere ulaşabilirsiniz.[Miro linkimiz için tıklayınız](https://miro.com/app/board/uXjVO5ivmM8=/?share_link_id=838499508459) . Ayrıca bütün toplantı notlarımızın ve çalışma prensiplerimizi belirlediğimiz Notion çalışma alanımız bulunmaktadır. [Notion linkimiz için tıklayınız](https://berserkjournal.notion.site/aa64bdd794ca4818961a9a8250ac7c2d?v=7c645db9173340218ecb7adf7ea87ba3)
 # Sprint1
-  + Sprint 1'in ilk 5 günü içerisinde yoğun bir araştırma sürecinden geçtik. Birkaç gün boyunca proje fikirleri ve özelliklerini tartıştık. Denemek istediğimiz çalışır hale getirmek istediğimiz özelliklerin imkanlar dahilimizde ne kadar gerçekleşebileceğini araştırdık. Sprint 1'in ilk haftası bizim için Sprint'in ilk haftası olarak geçmektedir. Buna yönelik ilk Scrum listemiz aşağıdaki gibidir.
+  + Sprint 1'in ilk 5 günü içerisinde yoğun bir araştırma sürecinden geçtik. Birkaç gün boyunca proje fikirleri ve özelliklerini tartıştık. Denemek istediğimiz çalışır hale getirmek istediğimiz özelliklerin imkanlar dahilimizde ne kadar gerçekleşebileceğini araştırdık. Sprint 1'in ilk haftası bizim için Sprint'in ilk haftası olarak geçmektedir. Birinci aşama ilk haftayı, ikinci aşama ikinci haftayı temsil etmektedir. Buna yönelik ilk Scrum listemiz aşağıdaki gibidir.
   ![sprint1 meet](https://user-images.githubusercontent.com/6298796/167255447-091cea25-b875-4174-9a34-41574333dcd2.png)
-  ![sprint1 start](https://user-images.githubusercontent.com/6298796/167255007-a7930291-4fca-40aa-a8bf-5421c61d6ebe.png)
+  ![Team20_Project - Sprint1](https://user-images.githubusercontent.com/6298796/167398947-8e02e417-66c4-4a1d-8392-70283c8ff4a5.jpg)
   + Sprint 1 için hazırlıklarımızı yaptığımızda yani ilk haftanın sonunda 2 ve 3.Sprint özelinde ürün özelliklerini geliştirmek adına bir yol haritası çıkardık. Bu yol haritası oluşturduğumuz personamızın kullanıcı hikayesine uygun bir şekilde hazırlandı. Persona ve Sprint iş listesi aşağıdaki gibidir:
  ![persona,User Stories](https://user-images.githubusercontent.com/6298796/167255092-7669d4e2-048f-44e1-87dc-33d2c2f9e14a.png)
  ![persona2](https://user-images.githubusercontent.com/6298796/167295692-84c2fcb0-6727-4f17-a015-22e0f8d79ec6.png)
 ![persona3](https://user-images.githubusercontent.com/6298796/167295694-12341436-8456-4371-b37e-8e7e83aee6dd.png)
  ![ScrumPlan](https://user-images.githubusercontent.com/6298796/167255098-2de38a1b-6ef2-46c7-81fc-60f568a6622f.png)
   + Sprint 1'in yarısından sonra yani ikinci haftasından itibaren ürünümüzün en önemli özelliğin hazırladık. Yani Location Based tabanlı bölümünün tasarımına başladık. Bayramın birinci ve ikinci günü verimli bir çalışma sağlayamadık ancak haftanın sonlarına doğru 140 puanlık bir sprint listesi hazırladık. İkinci aşamanın görev listesi aşağıdaki gibidir:
-![sprint1 2 hafta](https://user-images.githubusercontent.com/6298796/167255602-b81b8948-5043-4ced-8c87-1ae272e24c78.png)
+![Team20_Project - Sprint1-2](https://user-images.githubusercontent.com/6298796/167398973-887dfc3a-3c26-4a93-b8bc-ac7c7ec3a63a.jpg)
   + Sprint 1'in sonunu toplam 140 puanla tamamladık. Bununla ilgili çıktı aşağıdaki gibidir:
-![sprint1 end](https://user-images.githubusercontent.com/6298796/167255187-38c35f07-05e0-4727-9d2b-c062dbd3302c.png)
+![Team20_Project - Sprint1-3](https://user-images.githubusercontent.com/6298796/167398993-0c65802d-49f0-4985-918d-aa5a171f6de0.jpg)
   + Her sprint'in sonunda ürünümüze ait birer versiyon üretmeyi hedefledik ve ilk sprintimiz sonucunda Alpha Versiyonu 1.0 olarak bir apk ürettik. Elbette bug'ları var ancak temel bir özelliği tamamlayabildik. Ürünümüzün ilk versiyonuna ait ekran görüntüleri aşağıda bulunmakla birlikte, apk dosyamıza; ProductFiles -> Team20Proejct -> Build -> Team20Project.apk üzerinden ulaşabilirsiniz.
 ![1](https://user-images.githubusercontent.com/6298796/167255356-ce56dac7-9bda-417c-85aa-97b3d1cfacfe.jpg)
 ![2](https://user-images.githubusercontent.com/6298796/167255359-9daa3ee5-117a-4557-8946-3312f81c521e.jpg)
