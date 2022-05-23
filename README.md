@@ -62,5 +62,13 @@ Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmak
 ![Team20_Project - Sprint2 DailyScrum Notları](https://user-images.githubusercontent.com/6298796/169704470-8fdf909b-3ef4-4cfb-9ede-d9306417263e.jpg)
   + Son olarak Sprint 2'nin retrospektif toplantısını yaptık ve 2.Sprint'in değerlendirmesini(Review) tamamlayarak 3.Sprint için hazırlanmaya başladık. İlerleyen hafta ve sonraki haftanın içinde neleri yapacağımızı planladık. Son aşamaya kadar olan süreçleri tekrar ettik.
   + Oyun içi görsellerimiz aşağıda bulunmaktadır. Henüz assetleri giydirilmemiş çalışmamız için her sprint sonunda bir versiyon üreteceğimizi projenin ilk aşamasından beri belirtmiştik. 1.Sprintin sonunda Alpha 1.0 bir ürün üretmiştik. Bu sprintin sonunda Alpha version 1.1'i üretmiş bulunmaktayız. Burada bir çok prototip sahne birleştirildi ve etkileşimleri üzerinde hala çalışılmaktadır. Bu apk dosyasına  ProductFiles -> Team20Proejct -> Build -> Team20ProjectSprint2.apk dosyasından ulaşabilirsiniz. Ayrıca oyunun en güncel dosyaları ProductFiles'ın içinde bulunmaktadır.
+![splash3](https://user-images.githubusercontent.com/6298796/169900659-e009040f-66dc-4624-bd8d-6b58169886c1.jpg)
+![splash1](https://user-images.githubusercontent.com/6298796/169900674-d8e38113-b1c5-42ba-8351-a8ae62ad757a.jpg)
+![splash2](https://user-images.githubusercontent.com/6298796/169900677-a50d9e71-676c-4208-8f03-d318ebcdb7e3.jpg)
+![turnbase1](https://user-images.githubusercontent.com/6298796/169900662-c2752e55-1b52-43f7-9267-6b769d78570d.jpg)
+![turnbase2](https://user-images.githubusercontent.com/6298796/169900664-347dd36a-e229-40ed-9661-5423d9488f75.jpg)
+![turnbase3](https://user-images.githubusercontent.com/6298796/169900665-9f145e58-da26-43f4-89c4-d0bd2a821e10.jpg)
+![location1](https://user-images.githubusercontent.com/6298796/169900668-da631026-3b30-4f1b-bb4b-cb08c4f838b9.jpg)
+![location2](https://user-images.githubusercontent.com/6298796/169900670-9d057dd9-cd75-4499-bec4-da8538239f6e.jpg)
  ![Team20_Project - Sprint2 Retrospektif](https://user-images.githubusercontent.com/6298796/169704562-ddd65a98-8218-46d1-9341-d1fa68ccddd8.jpg)
   + Sprint 2 Review notları için Notion linkimize buradan ulaşabilirsiniz. [Sprint 2 Review Notion Notumuz İçin Tıklayın.](https://www.notion.so/berserkjournal/Sprint2-21-05-2022-Sprint-2-Review-Toplant-s-a700e24d61fe47878cd81c6c9f6ab9ec)
