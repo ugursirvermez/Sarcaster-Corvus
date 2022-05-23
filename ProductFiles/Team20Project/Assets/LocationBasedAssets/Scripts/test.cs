@@ -16,6 +16,6 @@ public class test : MonoBehaviour
     IEnumerator bekle()
     {
         
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
     }
 }

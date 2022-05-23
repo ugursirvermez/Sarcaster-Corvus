@@ -6,16 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 22424703114646760c1e0e2d086c7a08171a0826293b696012190f36e4e1360be1e238ecf47513333a03fb350b304c3df3190c0fd10a070e5f1bf30705e6
       flags: 0
-    RecentlyUsedScenePath-2:
+    RecentlyUsedScenePath-1:
       value: 2242470311464677020d0d36192c513217041d2e0d3b3535393a5200e1e53a3df1a830e0e0322b722c0ce6281d
       flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646741d0b022b1e246c1313191d39631c233120051234edae2136ebf32f
+      flags: 0
     RecentlyUsedScenePath-3:
+      value: 22424703114646741d0b022b1e246c1313191d39630a2336223b1800f6e1262cacf238e0f323
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646760200093b242b561e11045707292c2f313920123dadcd3b36e7fe05eae2343a2f762fea380d3f1536fd04280fc5080f051440e80018eb09
+      flags: 0
+    RecentlyUsedScenePath-5:
       value: 2242470311464677020d0d36192c513217041d2e0d3b3535393a5200e1e53a3df1a81ae6e43b2b35360cdf2e0b2a0e2beb1a0c45e305031f08
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646741d0b022b1e246c1313191d39631b32313f3d2b3ae6e53b76f7e93ffdfe
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 224247031146466f181c020011305a1437040b2f383b69032e2c1336f1af002df0e914e8f43f0f2e3616e0281d2e0471e704001fef
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646741d0b022b1e246c1313191d396305233e3867083debf42d
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646741d0b022b1e246c1313191d39630f273d28051234edae2136ebf32f
       flags: 0
     UnityEditor.ShaderGraph.Blackboard:
       value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd3c3e302a07a37e0901373ae01e0008f707250d171df81a53a5405d41895ac825e0100ec20313c0d91cddccd3d0c7efcca9bd80908fecb0f9cfddf1eff4e7a1b1eae482f0fdaee1e1928b86d888ed909c968797a7cf

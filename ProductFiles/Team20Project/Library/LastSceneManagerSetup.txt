@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/LocationBasedAssets/Scenes/LocationPrototype.unity
+- path: Assets/OpeningScenes/GameLogo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,0 +1,21 @@
+<dependencies>
+  <packages>
+    <package>com.unity3d.mediation:admob-adapter:[0.4,0.5[</package>
+    <package>com.unity3d.mediation:mediation-sdk:[0.4,0.5[</package>
+    <package>com.unity3d.mediation:unityads-adapter:[0.4,0.5[</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.AtomicSneeze.SarcasterCorvus" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>

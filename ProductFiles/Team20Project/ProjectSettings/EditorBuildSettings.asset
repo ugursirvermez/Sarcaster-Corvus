@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/OpeningScenes/GameLogo.unity
+    guid: 744022bb26bfb6c43886f9a584a17e0d
+  - enabled: 0
+    path: Assets/OpeningScenes/StartVideo.unity
+    guid: 05b7b2b40d5197c479199bd6a2e5cd09
+  - enabled: 1
+    path: Assets/OpeningScenes/Menu.unity
+    guid: 47de2598474fa214f85253fa4a482222
+  - enabled: 1
     path: Assets/LocationBasedAssets/Scenes/LocationPrototype.unity
     guid: 0649b272d1071124a854b9992f1cf198
   - enabled: 1
-    path: Assets/LocationBasedAssets/Scenes/fight.unity
-    guid: fb7e89ec83831c841ba2325aef7424e4
+    path: Assets/TurnBasedAssets/Scenes/TurnBasePrototype.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5a571003c09a5044f8d66c6f42ab22e7, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: f8d642c6c6bc38145a20e4311b935b9b, type: 2}

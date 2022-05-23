@@ -1,0 +1,24 @@
+{
+    "name": "Unity.Mediation.Build.Editor",
+    "references": [
+        "Unity.Mediation",
+        "Unity.Mediation.Adapters.Editor",
+        "Unity.Settings.Editor",
+        "Unity.Mediation.Settings.Editor",
+        "PlayServicesResolver.Utils.Editor",
+        "Unity.Services.Core.Configuration.Editor",
+        "Unity.Services.Core.Configuration",
+        "Unity.Services.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

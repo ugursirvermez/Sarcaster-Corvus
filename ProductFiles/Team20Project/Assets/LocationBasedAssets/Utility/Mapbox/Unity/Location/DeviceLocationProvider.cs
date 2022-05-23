@@ -162,7 +162,7 @@ namespace Mapbox.Unity.Location
 #if UNITY_ANDROID
 			if (!_locationService.isEnabledByUser)
 			{
-				UniAndroidPermission.RequestPermission(AndroidPermission.ACCESS_FINE_LOCATION);
+				 UniAndroidPermission.RequestPermission(AndroidPermission.ACCESS_FINE_LOCATION); 
 				//wait for user to allow or deny
 				while (!_gotPermissionRequestResponse) { yield return _wait1sec; }
 			}
