@@ -1,0 +1,50 @@
+{
+  "name": "com.unity.cinemachine",
+  "displayName": "Cinemachine",
+  "version": "2.6.14",
+  "unity": "2018.4",
+  "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+  "keywords": [
+    "camera",
+    "follow",
+    "rig",
+    "fps",
+    "cinematography",
+    "aim",
+    "orbit",
+    "cutscene",
+    "cinematic",
+    "collision",
+    "freelook",
+    "cinemachine",
+    "compose",
+    "composition",
+    "dolly",
+    "track",
+    "clearshot",
+    "noise",
+    "framing",
+    "handheld",
+    "lens",
+    "impulse"
+  ],
+  "category": "cinematography",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+    "type": "git",
+    "revision": "fd7af21c7c4eda169ef82579f6482e06d01dab6b"
+  },
+  "samples": [
+    {
+      "displayName": "Cinemachine Example Scenes",
+      "description": "Sample scenes illustrating various ways to use Cinemachine",
+      "path": "Samples~/Cinemachine Example Scenes"
+    }
+  ],
+  "_upm": {
+    "changelog": "- Bugfix: Standalone profiler no longer crashes with CM.\n- Bugfix: EmbeddedAssetProperties were not displayed correctly in the editor.\n- Timeline guards added to scripts that rely on it.\n- Bugfix: CinemachineInputProvider now correctly tracks enabled state of input action\n- Bugfix: POV orientation was incorrect with World Up override\n- Added AutoEnable option to CinemachineInputHandler\n- Bugfix: 3rdPersonFollow shows a warning message when no follow target is assigned like the rest of the body components."
+  },
+  "upmCi": {
+    "footprint": "ee27d4bf3b6319f9effb02cb218cb4f1d7017cf1"
+  }
+}

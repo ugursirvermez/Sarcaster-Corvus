@@ -1,0 +1,15 @@
+{
+    "name": "Unity.AdaptivePerformance",
+    "references": [
+        "GUID:d03624f02fd4aef4aa6b888a1b059ad7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
