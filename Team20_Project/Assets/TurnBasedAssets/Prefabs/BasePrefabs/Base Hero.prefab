@@ -119,14 +119,17 @@ MonoBehaviour:
     curATK: 0
     baseDEF: 0
     curDEF: 0
+    attacks: []
     stamina: 0
     intellect: 0
     dexterity: 0
     agility: 0
+    MagicAttacks: []
   currentState: 0
-  ProgressBar: {fileID: 0}
+  max_cooldown: 3
   Selector: {fileID: 912731686013125770}
   EnemyToAttack: {fileID: 0}
+  HeroPanel: {fileID: 0}
 --- !u!1001 &5594508452306432042
 PrefabInstance:
   m_ObjectHideFlags: 0

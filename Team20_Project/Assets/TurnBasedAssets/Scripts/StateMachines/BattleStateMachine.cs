@@ -147,6 +147,9 @@ public class BattleStateMachine : MonoBehaviour
             case (PerformAction.LOSE):
                 {
                     Debug.Log("You Lost the battle");
+                    GameManager.instance.LoadSceneAfterBattle();
+                    GameManager.instance.gameState = GameManager.GameStates.WORLD_STATE;
+                    GameManager.instance.enemyToBattle.Clear();
                 }
                 break;
             case (PerformAction.WIN):

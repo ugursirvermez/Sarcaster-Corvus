@@ -20,7 +20,7 @@ public class HeroStateMachine : MonoBehaviour
     public TurnState currentState;
     // Ýlerleme çubuðu
     private float cur_cooldown = 0f;
-    private float max_cooldown = 5f;
+    public float max_cooldown = 5f;
     private Image ProgressBar;
     public GameObject Selector;
     // IeNumerator
@@ -188,7 +188,7 @@ public class HeroStateMachine : MonoBehaviour
     // Hasar hesaplamasý
     void DoDamage()
     {
-        float calc_damage = hero.curATK + BSM.PerformList[0].choosenAttack.attackDamage;
+        float calc_damage = hero.curATK + BSM.PerformList[0].choosenAttack.attackDamage + (hero.dexterity/10f) + (hero.agility/10f);
         EnemyToAttack.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
     }
 

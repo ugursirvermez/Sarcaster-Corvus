@@ -19,7 +19,7 @@ public class EnemyStateMachine : MonoBehaviour
     public TurnState currentState;
     // Ýlerleme çubuðu
     private float cur_cooldown = 0f;
-    private float max_cooldown = 10f;
+    public float max_cooldown = 10f;
     // Bu nesneyle alakalý
     private Vector3 startposition;
     public GameObject Selector;
@@ -90,7 +90,7 @@ public class EnemyStateMachine : MonoBehaviour
                     }
                     
                     // Karakterin rengini deðiþtir veya Ölme animasyonu oynat
-                    this.gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
+                    this.gameObject.GetComponentInChildren<SpriteRenderer>().material.color = new Color32(105, 105, 105, 255);
                     // Hayatta durumunu deðiþtir
                     alive = false;
                     // Düþman butonlarýný sýfýrla
