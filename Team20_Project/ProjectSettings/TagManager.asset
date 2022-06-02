@@ -6,6 +6,11 @@ TagManager:
   tags:
   - MainMenu
   - OptionMenu
+  - EncounterZone
+  - Enemy
+  - Hero
+  - DeadEnemy
+  - DeadHero
   layers:
   - Default
   - TransparentFX
