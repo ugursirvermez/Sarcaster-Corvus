@@ -7,7 +7,7 @@ public class HeroStateMachine : MonoBehaviour
 {
     private BattleStateMachine BSM;
     public BaseHero hero;
-
+    public Animator anim;
     public enum TurnState
     {
         PROCESSING,
@@ -20,7 +20,7 @@ public class HeroStateMachine : MonoBehaviour
     public TurnState currentState;
     // Ýlerleme çubuðu
     private float cur_cooldown = 0f;
-    private float max_cooldown = 5f;
+    public float max_cooldown = 5f;
     private Image ProgressBar;
     public GameObject Selector;
     // IeNumerator
@@ -55,6 +55,9 @@ public class HeroStateMachine : MonoBehaviour
         switch (currentState)
         {
             case (TurnState.PROCESSING):
+                anim.SetBool("Walk", false);
+                anim.SetBool("Attacking", false);
+                anim.SetBool("takingHit", false);
                 UpgradeProgressBar();
                 break;
             case (TurnState.ADDTOLIST):
@@ -106,6 +109,7 @@ public class HeroStateMachine : MonoBehaviour
                     
                     // Rengi deðiþtir veya ölüm animasyonu oynat
                     this.gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
+                    anim.SetBool("dead", true);
                     // Kahraman inputlarýný sýfýrla
                     BSM.battleStates = BattleStateMachine.PerformAction.CHECKALIVE;
                     alive = false;
@@ -138,16 +142,26 @@ public class HeroStateMachine : MonoBehaviour
 
         // Kahramaný düþmanýn yakýnýna doðru ilerlet veya saldýrý animasyonu oynat
         Vector3 enemyPosition = new Vector3(EnemyToAttack.transform.position.x - 1.5f, EnemyToAttack.transform.position.y, EnemyToAttack.transform.position.z);
-        while (MoveTowardsEnemy(enemyPosition)) { yield return null; }
+        while (MoveTowardsEnemy(enemyPosition)) 
+        {
+            anim.SetBool("Walk", true);
+            yield return null; 
+        }
+        anim.SetBool("Walk", false);
 
         // Biraz bekle
+        anim.SetBool("Attacking", true);
         yield return new WaitForSeconds(0.5f);
         // Hasar ver
         DoDamage();
         // Baþlangýç pozisyonuna geri dön veya animasyonu durdur.
         Vector3 firstPosition = startPosition;
-        while (MoveTowardsStart(firstPosition)) { yield return null; }
-
+        while (MoveTowardsStart(firstPosition)) 
+        {
+            anim.SetBool("Walk", true);
+            yield return null; 
+        }
+        anim.SetBool("Walk", false);
         // Bu performeri BSM'deki listeden kaldýr
         BSM.PerformList.RemoveAt(0);
         // reset BSM -> WAIT
@@ -178,6 +192,7 @@ public class HeroStateMachine : MonoBehaviour
     public void TakeDamage(float getDamageAmount)
     {
         hero.curHp -= getDamageAmount;
+        anim.SetBool("takingHit", true);
         if (hero.curHp <= 0)
         {
             hero.curHp = 0;
@@ -188,7 +203,7 @@ public class HeroStateMachine : MonoBehaviour
     // Hasar hesaplamasý
     void DoDamage()
     {
-        float calc_damage = hero.curATK + BSM.PerformList[0].choosenAttack.attackDamage;
+        float calc_damage = hero.curATK + BSM.PerformList[0].choosenAttack.attackDamage + (hero.agility/10) + (hero.dexterity/10);
         EnemyToAttack.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
     }
 

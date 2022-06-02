@@ -125,6 +125,7 @@ MonoBehaviour:
     rarity: 0
   anim: {fileID: 2196448747405560288}
   currentState: 0
+  max_cooldown: 7
   Selector: {fileID: 6443691791688703308}
   HeroToAttack: {fileID: 0}
 --- !u!1001 &1757974924940536300

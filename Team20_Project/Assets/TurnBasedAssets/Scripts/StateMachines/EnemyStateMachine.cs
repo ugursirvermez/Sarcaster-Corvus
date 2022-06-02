@@ -20,7 +20,7 @@ public class EnemyStateMachine : MonoBehaviour
     public TurnState currentState;
     // Ýlerleme çubuðu
     private float cur_cooldown = 0f;
-    private float max_cooldown = 10f;
+    public float max_cooldown = 10f;
     // Bu nesneyle alakalý
     private Vector3 startposition;
     public GameObject Selector;
