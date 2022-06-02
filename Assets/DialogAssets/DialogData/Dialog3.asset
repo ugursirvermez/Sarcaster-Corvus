@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd06d3619c37734ca8072a08c22117a, type: 3}
+  m_Name: Dialog3
+  m_EditorClassIdentifier: 
+  metinler:
+  - metin: 12341
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: 1rgd
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  sonraki_dialog: {fileID: 11400000, guid: 10a99a24278eedf4d9b8f6258f2352cb, type: 2}
