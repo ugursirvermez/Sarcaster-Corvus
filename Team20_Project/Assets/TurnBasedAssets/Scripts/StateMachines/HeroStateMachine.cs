@@ -66,6 +66,9 @@ public class HeroStateMachine : MonoBehaviour
                 break;
             case (TurnState.WAITING):
                 // idle
+                anim.SetBool("Walk", false);
+                anim.SetBool("Attacking", false);
+                anim.SetBool("takingHit", false);
                 break;
             case (TurnState.ACTION):
                 StartCoroutine(TimeForAction());

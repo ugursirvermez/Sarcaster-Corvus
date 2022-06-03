@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6744940203706388060, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: enemy.curHp
-      value: 34
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 6744940203706388060, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: enemy.curMp
@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6744940203706388060, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: enemy.baseHp
-      value: 34
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 6744940203706388060, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: enemy.baseMp

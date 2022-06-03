@@ -44,6 +44,9 @@ public class BattleStateMachine : MonoBehaviour
     public GameObject EnemySelectPanel;
     public GameObject MagicPanel;
 
+    public GameObject WinPanel;
+    public GameObject LosePanel;
+
     // Kahramanlarýn saldýrýlarý
     public Transform actionSpacer;
     public Transform magicSpacer;
@@ -78,6 +81,7 @@ public class BattleStateMachine : MonoBehaviour
         AttackPanel.SetActive(false);
         EnemySelectPanel.SetActive(false);
         MagicPanel.SetActive(false);
+
 
         EnemyButtons();
     }
@@ -146,28 +150,22 @@ public class BattleStateMachine : MonoBehaviour
                 break;
             case (PerformAction.LOSE):
                 {
-					for (int i = 0; i < HerosInBattle.Count; i++)
-                    {
-                        HerosInBattle[i].GetComponent<HeroStateMachine>().currentState = HeroStateMachine.TurnState.WAITING;
-                    }
-                    Debug.Log("You Lost the battle");
-					GameManager.instance.LoadSceneAfterBattle();
-                    GameManager.instance.gameState = GameManager.GameStates.WORLD_STATE;
-                    GameManager.instance.enemyToBattle.Clear();
-					//LocationSceneManager.instance.playerdokun();
-                }
-                break;
-            case (PerformAction.WIN):
-                {
-                    Debug.Log("You Win the battle");
                     for (int i = 0; i < HerosInBattle.Count; i++)
                     {
                         HerosInBattle[i].GetComponent<HeroStateMachine>().currentState = HeroStateMachine.TurnState.WAITING;
                     }
-                    GameManager.instance.LoadSceneAfterBattle();
-                    GameManager.instance.gameState = GameManager.GameStates.WORLD_STATE;
-                    GameManager.instance.enemyToBattle.Clear();
-					LocationGameManager.Instance.MevcutPlayer.xpartsýn(10);
+                    //LocationSceneManager.instance.playerdokun();
+                    LosePanel.SetActive(true);
+                }
+                break;
+            case (PerformAction.WIN):
+                {
+                    
+                    for (int i = 0; i < HerosInBattle.Count; i++)
+                    {
+                        HerosInBattle[i].GetComponent<HeroStateMachine>().currentState = HeroStateMachine.TurnState.WAITING;
+                    }
+                    WinPanel.SetActive(true);
                 }
                 break;
         }
@@ -319,5 +317,24 @@ public class BattleStateMachine : MonoBehaviour
     {
         AttackPanel.SetActive(false);
         MagicPanel.SetActive(true);
+    }
+
+    public void LoseFight()
+    {
+        Debug.Log("You Lost the battle");
+
+        GameManager.instance.LoadSceneAfterBattle();
+        GameManager.instance.gameState = GameManager.GameStates.WORLD_STATE;
+        GameManager.instance.enemyToBattle.Clear();
+    }
+
+    public void WinFight()
+    {
+        Debug.Log("You Win the battle");
+
+        GameManager.instance.LoadSceneAfterBattle();
+        GameManager.instance.gameState = GameManager.GameStates.WORLD_STATE;
+        GameManager.instance.enemyToBattle.Clear();
+        LocationGameManager.Instance.MevcutPlayer.xpartsýn(10);
     }
 }

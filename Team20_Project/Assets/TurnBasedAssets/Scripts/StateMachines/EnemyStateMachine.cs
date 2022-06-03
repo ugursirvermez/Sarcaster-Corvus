@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class EnemyStateMachine : MonoBehaviour
@@ -7,6 +8,8 @@ public class EnemyStateMachine : MonoBehaviour
     private BattleStateMachine BSM;
     public BaseEnemy enemy;
     public Animator anim;
+
+    public TMP_Text enemyHP;
 
     public enum TurnState
     {
@@ -38,6 +41,7 @@ public class EnemyStateMachine : MonoBehaviour
         Selector.SetActive(false);
         BSM = GameObject.Find("BattleManager").GetComponent<BattleStateMachine>();
         startposition = transform.position;
+        enemyHP.text = "HP: " + enemy.curHp;
     }
 
     
@@ -57,6 +61,9 @@ public class EnemyStateMachine : MonoBehaviour
                 break;
             case (TurnState.WAITING):
                 // idle 
+                anim.SetBool("Walk", false);
+                anim.SetBool("Attacking", false);
+                anim.SetBool("takingHit", false);
                 break;
             case (TurnState.ACTION):
                 StartCoroutine(TimeForAction()); 
@@ -92,7 +99,7 @@ public class EnemyStateMachine : MonoBehaviour
                             }  
                         }
                     }
-                    
+                    enemyHP.text = " ";
                     // Karakterin rengini deðiþtir veya Ölme animasyonu oynat
                     this.gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
                     anim.SetBool("dead", true);
@@ -199,5 +206,11 @@ public class EnemyStateMachine : MonoBehaviour
             enemy.curHp = 0;
             currentState = TurnState.DEAD;
         }
+        UpdateEnemyHp();
+    }
+
+    public void UpdateEnemyHp()
+    {
+        enemyHP.text = "HP: " + enemy.curHp;
     }
 }
