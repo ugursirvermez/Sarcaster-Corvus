@@ -44,6 +44,6 @@ public class LocationPlayerData
       xpnext = player.Xpnext;
       level = player.Level;
       sonrakilevel = player.Levelmerkez;
-      itemler = player.Itemlocation;
+     // itemler = player.Itemlocation;
    }
 }
