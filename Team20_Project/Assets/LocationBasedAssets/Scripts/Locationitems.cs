@@ -21,7 +21,7 @@ public class Locationitems : MonoBehaviour
    {
       get => yakalanmasiklik;
       set => yakalanmasiklik = value;
-   }
+   } 
 
    #endregion
 

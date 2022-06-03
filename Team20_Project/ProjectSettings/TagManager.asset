@@ -10,6 +10,8 @@ TagManager:
   - Enemy
   - dialogs
   - DeadEnemy
+  - Hero
+  - DeadHero
   layers:
   - Default
   - TransparentFX

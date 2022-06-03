@@ -244,7 +244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8560523825497434899, guid: e133db3effe320948adac1833ecb8cb7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8560523825497434899, guid: e133db3effe320948adac1833ecb8cb7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -419,6 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4fc6eab542fa364d8b4818c7b673092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fade_anim: {fileID: 0}
   loading_panel: {fileID: 300275898}
   load_slider: {fileID: 300275897}
   yuzdelik: {fileID: 300275896}
@@ -1030,7 +1031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2736565629949129341, guid: b1dd6ae722937b64399e25038e81457b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2736565629949129341, guid: b1dd6ae722937b64399e25038e81457b, type: 3}
       propertyPath: m_AnchorMax.x

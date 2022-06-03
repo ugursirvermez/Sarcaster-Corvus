@@ -47,7 +47,7 @@ public class LocationItemRandom : LocationRansingle<LocationItemRandom>
         //Karakterimizin bulunduğu konumdan belirli noktalara doğru rastgele instantiate yapmaya çalışıyoruz.
         int index = Random.Range(0, items_inmap.Length);
         float x = _player.transform.position.x + mesafeyarat();
-        float y = _player.transform.position.y; // y yukarı spawn olmasını sağlar, bunu istemiyoruz.
+        float y = _player.transform.position.y+1.5f; // y yukarı spawn olmasını sağlar, bunu istemiyoruz.
         float z = _player.transform.position.z + mesafeyarat();
         ekrandakitemler.Add(Instantiate(items_inmap[index], new Vector3(x, y, z), Quaternion.identity));
     }

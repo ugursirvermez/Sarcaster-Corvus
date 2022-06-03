@@ -60,6 +60,7 @@ public class LocationPlayer : MonoBehaviour
     public  void xpartsın(int xp)
     {
         xpnow += xp;
+		kaydet();
     }
     
     //Eklenen Itemler rastgele olmadan once buraya atanmalı
@@ -125,6 +126,10 @@ public class LocationPlayer : MonoBehaviour
         yol = Application.persistentDataPath + "/player.dat";
         veridoldur();
     }
+	
+	void Update(){
+		levelatla();
+	}
 	
 	void OnApplicationPause(bool isPause){
      if(isPause){

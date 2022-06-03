@@ -19,7 +19,7 @@ public class HeroStateMachine : MonoBehaviour
 
     public TurnState currentState;
     // Ýlerleme çubuðu
-    private float cur_cooldown = 0f;
+    private float cur_cooldown = 2.5f;
     public float max_cooldown = 5f;
     private Image ProgressBar;
     public GameObject Selector;

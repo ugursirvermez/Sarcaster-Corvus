@@ -53,7 +53,7 @@ Shader "Projector/Light" {
 				texS.a = 1.0-texS.a;
 	
 				fixed4 texF = tex2Dproj (_FalloffTex, UNITY_PROJ_COORD(i.uvFalloff));
-				fixed4 res = texS * texF.a * 5;
+				fixed4 res = texS * texF.a;
 
 				UNITY_APPLY_FOG_COLOR(i.fogCoord, res, fixed4(0,0,0,0));
 				return res;
