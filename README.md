@@ -84,7 +84,16 @@ Miro üzerinde product işlemlerimiz ve SCRUM sprint dökümanlarımız bulunmak
 + İş listesinin haftalık süreçleri beklediğimiz gibi ancak planlamadığımız gibi gitti. Hata ayıklama ve oyunu cilalamak tahmin ettiğimizden daha fazla zaman aldı. Bundan dolayı oyuna eklemek istediğimiz Blockchain teknolojisini entegre etmekten vazgeçtik. Hataları ayıklamak ve entegre esnasında olası sorunlardan kaçmak istedik. Item'lerde NFT yapma gibi bir planımız ürünün MVP sonrasındaki planlarına dahil edilebilir. Diğer yandan ürün tanıtımına yönelik GDD, Landing Page ve 1 dakikalık tanıtım videosu sürecimizde önemli bir rol oynadı. Bunları tamamladığımızda aşağıdaki görevleri tamamladık.
 ![Team20_Project - Sprint3-Finish](https://user-images.githubusercontent.com/6298796/172060421-7baa6ff6-b755-4b66-8405-c175474852fa.jpg)
 + Her şeyin bitiminde oyunumuza ait aşağıdaki harika görsellere ulaştığımızı söylersek, fazla gururlanmış olur muyuz?
-RESİMLER GELECEK...
+![1](https://user-images.githubusercontent.com/6298796/172070697-c2957353-01dd-4d0c-a88d-50934a497d1f.jpg)
+![2](https://user-images.githubusercontent.com/6298796/172070699-f8f7a30c-5d41-4e72-9fad-c4a09f52dcda.jpg)
+![3](https://user-images.githubusercontent.com/6298796/172070702-3429b19c-6330-42cd-999e-720fda391e60.jpg)
+![4](https://user-images.githubusercontent.com/6298796/172070703-ff14ae7c-2b37-45b4-82f2-db19896ddacd.jpg)
+![5](https://user-images.githubusercontent.com/6298796/172070705-86fe3c22-22a3-4a36-9b75-682dfec9b3cb.jpg)
+![6](https://user-images.githubusercontent.com/6298796/172070706-43212b38-cb07-43cc-8ea5-6c4e61b9bbd5.jpg)
+![7](https://user-images.githubusercontent.com/6298796/172070708-cef4fb89-7e91-4af1-86a5-7cc59c1be4fa.jpg)
+![8](https://user-images.githubusercontent.com/6298796/172070710-277d6f74-65a2-4577-b1f9-b2af5230b4a5.jpg)
+![9](https://user-images.githubusercontent.com/6298796/172070715-6d4274a6-aae7-4bca-9381-61b045f66628.jpg)
+![10](https://user-images.githubusercontent.com/6298796/172070717-e6cbcf58-0f98-4215-8828-b8ce36344ac4.jpg)
 + 3.Sprint sonunda 6 haftalık bütün süreci değerlendirdik ve hedeflediğimiz ilk 14 ekibin arasına katılırsak, neler yapacağımıza dair bir retropektif yaptık. Bu retrospektif sonucunda elbette bir 3.Sprint Review'da aradan çıktı. Bütün çalışmalarımızı gözden geçirirken DailyScrum Notlarımızı da hazırlamış olduk.
 +DailyScrum Notları aşağıdaki gibidir.
 ![Team20_Project - Sprint3 DailyScrum Notları](https://user-images.githubusercontent.com/6298796/172060779-8b8b069f-e4b0-43f0-a4d3-c6dc8bcae4e9.jpg)
