@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: Dialog4
   m_EditorClassIdentifier: 
   metinler:
-  - metin: fwf
-    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
-  - metin: 23r
+  - metin: "D\xFCnyay\u0131 hala eski haline d\xF6nd\xFCrmenin bir yolu var, biliyorum..."
     konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
-  sonraki_dialog: {fileID: 11400000, guid: 92ca7a933c1de1e498ff4a08d810add2, type: 2}
+  - metin: Bunu hissediyorum...
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Ya\u015Famlar\u0131 mahveden bu y\u0131k\u0131n ilk anahtar\u0131 bu
+      adamlarda olabilir..."
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Onlarla ne olursa olsun d\xF6v\xFC\u015Fmeliyim!"
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: ...
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  sonraki_dialog: {fileID: 11400000, guid: c8170065dd9d96f469fbb3a1a090a1df, type: 2}

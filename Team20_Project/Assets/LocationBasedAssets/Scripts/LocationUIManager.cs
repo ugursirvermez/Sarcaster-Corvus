@@ -13,6 +13,10 @@ public class LocationUIManager : MonoBehaviour
     //Diğer ikisi loot kastıkça level atlayan sistemin UI'da yazımı
    [SerializeField] private TextMeshProUGUI itemxp;
    [SerializeField] private TextMeshProUGUI leveltext;
+   [SerializeField] private Button soundoff;
+   [SerializeField] private Sprite off;
+   [SerializeField] private Sprite on;
+   [SerializeField] private Slider XpBar;
    [SerializeField] private GameObject _Menu;
    [SerializeField] private AudioClip menusoundbuton;
    private AudioSource kaynak;
@@ -30,7 +34,7 @@ public class LocationUIManager : MonoBehaviour
    //Level xp arttıkça atla.
    public void levelatla()
    {
-       leveltext.text = LocationGameManager.Instance.MevcutPlayer.Level.ToString();
+       leveltext.text = "Level: "+LocationGameManager.Instance.MevcutPlayer.Level.ToString();
    }
 
    //loot yapıldıkça xp arttır.
@@ -38,6 +42,7 @@ public class LocationUIManager : MonoBehaviour
    {
        itemxp.text = LocationGameManager.Instance.MevcutPlayer.Xpnow.ToString() + "/" +
                      LocationGameManager.Instance.MevcutPlayer.Xpnext.ToString();
+		XpBar.value= Mathf.Clamp01(LocationGameManager.Instance.MevcutPlayer.Xpnow/LocationGameManager.Instance.MevcutPlayer.Xpnext);
    }
    
    //Menu aktifliği ve pasifliği buradan
@@ -72,9 +77,14 @@ public class LocationUIManager : MonoBehaviour
    {
        Application.Quit();
    }
-
-   public void loot()
-   {
-      
+   public void soundclose(){
+	   if(AudioListener.pause==false){
+	   AudioListener.pause=true;
+	   soundoff.GetComponent<Image>().sprite=on;
+	   }
+	   else{
+		   AudioListener.pause=false;
+		   soundoff.GetComponent<Image>().sprite=off;
+	   }
    }
 }

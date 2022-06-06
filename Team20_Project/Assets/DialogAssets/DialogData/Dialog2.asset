@@ -13,14 +13,26 @@ MonoBehaviour:
   m_Name: Dialog2
   m_EditorClassIdentifier: 
   metinler:
-  - metin: ewwet
-    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
-  - metin: y6543
+  - metin: "Hey \xE7ocuk! "
     konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
-  - metin: y4htf
+  - metin: Ne?
     konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
-  - metin: 234v
+  - metin: "Sen \u015Fu Corvus olmal\u0131s\u0131n..."
     konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
-  - metin: 142232r
+  - metin: "Belki oyum belki de\u011Filim. Corvus'u neden ar\u0131yorsun?"
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Duydu\u011Fuma g\xF6re Corvus d\xFCnyay\u0131 eski haline getirmenin
+      yolunu ar\u0131yormu\u015F."
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: "Bu seni \xE7ok mu duyguland\u0131rd\u0131?"
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Evet, ge\xE7en g\xFCn k\xF6lelerimi benden \xE7al\u0131nca y\xFCz\xFCndeki
+      aptal maske beni \xE7ok duyguland\u0131rd\u0131!"
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: "Onunla gurur duyuyor olmal\u0131s\u0131n..."
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: GEL BURAYA! HAAA!
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: ...
     konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
   sonraki_dialog: {fileID: 11400000, guid: 99468f8d56fcfd84fbdbe77f0cca409b, type: 2}

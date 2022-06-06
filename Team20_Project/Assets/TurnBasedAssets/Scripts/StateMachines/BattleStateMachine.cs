@@ -15,9 +15,9 @@ public class BattleStateMachine : MonoBehaviour
             WIN,
             LOSE
     }
-
+	
     public PerformAction battleStates;
-
+	public Item itemim;
     public List<HandleTurn> PerformList = new List<HandleTurn>();
 
     public List<GameObject> HerosInBattle = new List<GameObject>();
@@ -336,5 +336,6 @@ public class BattleStateMachine : MonoBehaviour
         GameManager.instance.gameState = GameManager.GameStates.WORLD_STATE;
         GameManager.instance.enemyToBattle.Clear();
         LocationGameManager.Instance.MevcutPlayer.xpartsýn(10);
+		InventoryManager.Instance.Add(itemim);
     }
 }

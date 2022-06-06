@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6090963906215052197}
   - component: {fileID: 7365902824756508399}
   - component: {fileID: 5160632496039022696}
+  - component: {fileID: 4374842475547406686}
   m_Layer: 0
   m_Name: locationitem
   m_TagString: Untagged
@@ -74,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0bb43691a79e3d48a11e8f6fa5c7713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAmountEnemies: 4
+  maxAmountEnemies: 3
   BattleScene: BattleScene
   possibleEnemies:
   - {fileID: 3698508902287091424, guid: c90c613c2cf59374890e58083018a39d, type: 3}
@@ -89,7 +90,7 @@ Animator:
   m_GameObject: {fileID: 1929756579298207145}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 73c48fd11c23c014bb768ed1a584c69c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9541a6dc13f13a74f9dc6dfdad3d23e8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -98,6 +99,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &4374842475547406686
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929756579298207145}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5f7c63010afb9974a9a27e4c47183d32, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!111 &6806699336332149268
 Animation:
   m_ObjectHideFlags: 0
@@ -105,9 +121,9 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6750214572250837065}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: cd220c52b53429e46891555c18dc4159, type: 2}
+  m_Animation: {fileID: 7400000, guid: 5f7c63010afb9974a9a27e4c47183d32, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -249,9 +265,13 @@ PrefabInstance:
       value: -0.000000014901158
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d3a2828ab5d1e044eab4d1149bd14b4e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d3a2828ab5d1e044eab4d1149bd14b4e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: c0a5a4b657e944c4caf042bc57d027fb, type: 2}
+      objectReference: {fileID: 9100000, guid: 6c9f1e81596a51940b5cfb623019c386, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3a2828ab5d1e044eab4d1149bd14b4e, type: 3}
 --- !u!1 &6750214572250837065 stripped

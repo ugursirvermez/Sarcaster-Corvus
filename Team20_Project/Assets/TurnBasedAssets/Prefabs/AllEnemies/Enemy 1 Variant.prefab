@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1876210147891270535, guid: 83450d36b93193144a456805b34f5297, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876210147891270535, guid: 83450d36b93193144a456805b34f5297, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876210147891270535, guid: 83450d36b93193144a456805b34f5297, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6744940203706388048, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -54,6 +66,10 @@ PrefabInstance:
     - target: {fileID: 6744940203706388059, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: m_Name
       value: Enemy 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744940203706388060, guid: 83450d36b93193144a456805b34f5297, type: 3}
+      propertyPath: healthbar
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6744940203706388060, guid: 83450d36b93193144a456805b34f5297, type: 3}
       propertyPath: enemy.curHp

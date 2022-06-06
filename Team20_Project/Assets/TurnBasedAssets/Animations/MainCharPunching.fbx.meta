@@ -533,48 +533,48 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: MainChar(Clone)
+    - name: maincorvus(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Body
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eyes
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eyelashes
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Bottoms
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Tops
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Shoes
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hair
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: MainChar(Clone)
+      parentName: maincorvus(Clone)
       position: {x: 0.000007444291, y: 0.9549035, z: 0.0023666264}
       rotation: {x: 0.0000015561376, y: 0.0000030651647, z: -0.00010142224, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -910,7 +910,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c8bcb75cceeb77344ac8e12ceda4c537, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 714426df574bc0b429c665c7e7608907, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1

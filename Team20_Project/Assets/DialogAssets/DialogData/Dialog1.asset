@@ -13,12 +13,19 @@ MonoBehaviour:
   m_Name: Dialog1
   m_EditorClassIdentifier: 
   metinler:
-  - metin: Hi Man!
+  - metin: "Selam gen\xE7ler, burada bir koku duyuyor musunuz?"
     konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
-  - metin: What?
+  - metin: Ne kokusundan bahsediyorsun ulan?
     konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
-  - metin: I dont like you
+  - metin: "Koku alamayan aptal kokusu al\u0131yorum..."
     konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
-  - metin: Me Neither
+  - metin: "Hey, hey,hey... kiminle konu\u015Ftu\u011Funun fark\u0131nda m\u0131s\u0131n?"
     konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: "Evet. Sizin gibi aptallar y\xFCz\xFCnden d\xFCnya bu halde. Bencil veletler!"
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Haha! Kavga m\u0131 ar\u0131yorsun k\xFC\xE7\xFCk \xE7ocuk? Gel o zaman
+      dersini vereyim!"
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: ...
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
   sonraki_dialog: {fileID: 11400000, guid: 3a14bdd946a7e5d409c3c2b290675fdf, type: 2}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ismi: Corvus
   ismin_color: {r: 0.12732475, g: 0.9433962, b: 0, a: 0}
-  avatar: {fileID: 21300000, guid: 2af076b0c7f87eb4ea2720a89b0ba512, type: 3}
+  avatar: {fileID: 21300000, guid: 0492eb891dded134c84c26a121a3f763, type: 3}

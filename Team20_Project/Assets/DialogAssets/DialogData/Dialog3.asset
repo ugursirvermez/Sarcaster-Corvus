@@ -13,8 +13,22 @@ MonoBehaviour:
   m_Name: Dialog3
   m_EditorClassIdentifier: 
   metinler:
-  - metin: 12341
-    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
-  - metin: 1rgd
+  - metin: "Uzun ama \xE7ok uzun zaman \xF6nce buras\u0131 bir \xE7ocuk park\u0131yd\u0131..."
     konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Ben daha do\u011Fmadan \xF6nceki zamanlardan kalma..."
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "\u015Eimdi ise d\xFCnyada k\xFCresel iklimin bozulmas\u0131na sebep olan
+      bu delilerin..."
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Birbirini \xF6ld\xFCrd\xFC\u011F\xFC bir yer..."
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "Heeeyy! O burada! Aptal karga art\u0131k kaderinin kurban\u0131 olacak!"
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
+  - metin: "Yanl\u0131\u015F\u0131n var seni ahmak! Ben sizin kurban\u0131n\u0131z
+      de\u011Filim."
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: "S\u0130Z BEN\u0130M KURBANLARIMSINIZ!"
+    konusan: {fileID: 11400000, guid: 9eab62b99048aba4aa7dff7f50521704, type: 2}
+  - metin: ...
+    konusan: {fileID: 11400000, guid: 1b20d57fb5eb3e04993f5b0e992a1bf5, type: 2}
   sonraki_dialog: {fileID: 11400000, guid: 10a99a24278eedf4d9b8f6258f2352cb, type: 2}

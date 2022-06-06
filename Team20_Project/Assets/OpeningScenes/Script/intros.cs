@@ -10,17 +10,17 @@ public class intros : MonoBehaviour
     [SerializeField] GameObject loading_panel;
     [SerializeField] Slider load_slider;
     [SerializeField] TextMeshProUGUI yuzdelik;
-   //Start videonun 1 olması lazım!
+   //Start videonun 0 olması lazım!
    public void basla_ekrani()
    {
-     StartCoroutine(LocationSenkron(1));
+     StartCoroutine(LocationSenkron(2));
    }
 
    //Start Video gelince 3 olacak.
    public void locationa_gecis()
    {
      // await Task.Delay(1000);
-      StartCoroutine(LocationSenkron(2));
+      StartCoroutine(LocationSenkron(4));
    }
    
    //SAHNE DOLUMU ICIN YAPTIGIMIZ BIR YUKLEME EKRANI

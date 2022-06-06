@@ -12,7 +12,7 @@ public class LocationPlayerData
    private int xpnext;
    private int level;
    private int sonrakilevel;
-   private List<GameObject> itemler; //Burayı sonra LocationItemData yapabiliriz...
+   private List<GameObject> itemler; //MVP'de bunu yapmak zaman alacak...
 
    #region vericek
    

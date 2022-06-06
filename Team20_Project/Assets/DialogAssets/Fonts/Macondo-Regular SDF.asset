@@ -59,9 +59,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Macondo-Regular SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -2106919101
   material: {fileID: 2598682819688128125}
-  materialHashCode: 0
+  materialHashCode: 1826645123
   m_Version: 1.1.0
   m_SourceFontFileGUID: a74ecd15dd0ecc7468102558178a5ecf
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: a74ecd15dd0ecc7468102558178a5ecf, type: 3}
@@ -2604,9 +2604,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ismi: Stranger
   ismin_color: {r: 1, g: 0, b: 0, a: 0}
-  avatar: {fileID: 21300000, guid: 3e53e851d8f2bda42af8f59b9a3a0a99, type: 3}
+  avatar: {fileID: 21300000, guid: be54999b9bba29d4cb6ea28952e9c628, type: 3}

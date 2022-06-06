@@ -11,13 +11,13 @@ public class menu : MonoBehaviour
     // OYUNA BAŞLA BUTONU KODU INTROS'UN İÇİNDEDİR OPENİNG SCENES BAĞLAMINDA BÜTÜN KODLAR ORADA
     
     public AudioMixer base_audio;
-    private int menuscene=1;
-    private int options=4;
+    private int menuscene=3;
+    private int options=6;
     
     #region menuden ayarlara gecis
     //MENU'DE BULUNAN AYARLAR BUTONUNUN İŞLEMİ
   public void menu_ayarlarbuton(){
-    SceneManager.LoadScene(options);
+    SceneManager.LoadSceneAsync(options);
     }
     
    //AYARLARDAN MENUYE DON 

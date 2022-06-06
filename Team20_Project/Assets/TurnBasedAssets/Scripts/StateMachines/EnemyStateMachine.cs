@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyStateMachine : MonoBehaviour
 {
     private BattleStateMachine BSM;
     public BaseEnemy enemy;
     public Animator anim;
-
     public TMP_Text enemyHP;
 
     public enum TurnState

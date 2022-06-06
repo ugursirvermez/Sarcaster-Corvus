@@ -154,7 +154,7 @@ public class HeroStateMachine : MonoBehaviour
 
         // Biraz bekle
         anim.SetBool("Attacking", true);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         // Hasar ver
         DoDamage();
         // Baþlangýç pozisyonuna geri dön veya animasyonu durdur.

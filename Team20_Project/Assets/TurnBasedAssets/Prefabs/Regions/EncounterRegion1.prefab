@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0bb43691a79e3d48a11e8f6fa5c7713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAmountEnemies: 4
+  maxAmountEnemies: 3
   BattleScene: BattleScene
   possibleEnemies:
   - {fileID: 3698508902287091424, guid: c90c613c2cf59374890e58083018a39d, type: 3}
