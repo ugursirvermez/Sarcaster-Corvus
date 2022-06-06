@@ -27,12 +27,12 @@ public class DialogRun : MonoBehaviour
 	
 	public void metinkontrol(){
 		
-		if(metinindex+1== getir.metinler.Count){
+		if(metinindex+1== getir.metinler.Count && state==DialogSTATE.ended){
 			GameManager.instance.dialogishere=false;
 			getir=getir.sonraki_dialog;
 			metinindex=-1;
 		}
-		else{
+		else if(state==DialogSTATE.ended){
 			degistir();
 		}
 	}
@@ -55,7 +55,7 @@ public class DialogRun : MonoBehaviour
 		state=DialogSTATE.playing;
 		while(state != DialogSTATE.ended){
 			words.text += yazi[word_index];
-			yield return new WaitForSeconds(0.01f);
+			yield return new WaitForSeconds(0.03f);
 			if(++word_index==yazi.Length){
 				state=DialogSTATE.ended;
 				break;
